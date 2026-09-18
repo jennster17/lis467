@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(3, 3, 60);
+    background-image: url(milkyway.jpg);
+    background-size: 2000px 1280px;
+    background-position: center top;
+    background-repeat: repeat;
+    color:honeydew;
+}
+
+h1 {
+    position: sticky;
+    top: 1px;
+    background-color: black;
+    background-image: linear-gradient(to right, rgb(3, 3, 92), lightskyblue);
+    color: white;
+    border: 5px solid white;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+p, ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 15px;
+}
+
+.planet {
+    position: relative;
+    background-color: rgba(2, 2, 40, 0.7);
+    color: white;
+    margin: auto;
+    box-sizing: content-box;
+    width: 450px;
+    padding: 15px;
+    border: 6px solid white;       
+}
+
+.fixed {
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 150px;
+}
+
+
+img {
+    border-radius: 60%;
+}
+
+a {
+    color: rgb(142, 174, 232);
+    text-decoration: none;
+}
+
+a:hover {
+    color: cyan;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: lightpink;
+    text-decoration: underline;
+}
+
+a:active {
+    color: lightgray;
+}
